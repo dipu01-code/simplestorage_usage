@@ -9,6 +9,6 @@
     "@nullvector/simplestore": "^1.0.0"
   },
   "devDependencies": {
-    "esbuild": "^0.24.0"
+    "esbuild": "^0.28.2"
   }
 }
