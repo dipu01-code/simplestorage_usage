@@ -8,4 +8,4 @@ const html = readFileSync(dir + 'index.html', 'utf8')
   .replace('<script type="module" src="./main.js"></script>', `<script>${js}</script>`);
 mkdirSync(dir + 'dist', { recursive: true });
 writeFileSync(dir + 'dist/index.html', html);
-console.log('wrote examples/todo-app/dist/index.html', html.length, 'bytes');
+console.log('wrote dist/index.html', html.length, 'bytes');
